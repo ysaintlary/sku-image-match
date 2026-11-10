@@ -4,7 +4,7 @@ Tags: woocommerce, sku, image, product, gallery
 Requires at least: 6.5
 Tested up to: 6.8
 Requires PHP: 8.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -39,6 +39,10 @@ YS SKU Image Match automatically assigns uploaded images to WooCommerce products
 3. Upload images named with the SKU convention
 
 == Changelog ==
+
+= 1.0.1 =
+* Update - chore: enable readiness/quality/security packs with PUC exclusions.
+
 
 = 1.0.0 =
 * Initial release
