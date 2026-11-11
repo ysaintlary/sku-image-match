@@ -28,11 +28,14 @@ require_once __DIR__ . '/lib/wp-plugin-base/wp-plugin-base-runtime-updater.php';
 
 /* ─── Compatibilité HPOS ─── */
 
-add_action( 'before_woocommerce_init', function () {
-	if ( class_exists( '\Automattic\WooCommerce\Utilities\FeaturesUtil' ) ) {
-		\Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', __FILE__ );
+add_action(
+	'before_woocommerce_init',
+	function () {
+		if ( class_exists( '\Automattic\WooCommerce\Utilities\FeaturesUtil' ) ) {
+			\Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', __FILE__ );
+		}
 	}
-} );
+);
 
 /* ─── Hook sur l'upload d'un attachment ─── */
 
