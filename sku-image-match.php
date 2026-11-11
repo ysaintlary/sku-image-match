@@ -3,7 +3,7 @@
  * Plugin Name:       YS | SKU Image Match
  * Plugin URI:        https://github.com/ysaintlary/sku-image-match
  * Description:       Associe automatiquement les images aux produits WooCommerce par SKU lors de l'upload. Convention : SKU_f.jpg = featured, SKU_g01.jpg = galerie.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Requires at least: 6.5
  * Requires PHP:      8.0
  * Author:            Yves Saint-Lary
